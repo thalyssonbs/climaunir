@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site criado para utilização em um projeto de eletrônica feito para a Universidade Federal de Rondônia-UNIR.">
+    <title>Umidade do ar no laboratório</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/veloc.css">
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div id="cabeçalho_esquerda">
+            <img id="logoUnir" src="imagens/Logotipo_Unir_sem_fundo_Branca300.png" alt="Logo da unir">
+        </div>
+        
+        <nav id="nav">
+            <button id="btn"> Menu </button>
+            <ul id="menu">
+                <li><a href="index.html" target="" type="external" class="cor_texto">Principal</a></li>
+                <li><a href="temperatura.html" target="" type="external" class="cor_texto">Temperatura</a></li>
+                <li><a href="Iluminação.html" target="" type="external" class="cor_texto">Iluminação</a></li>
+                <li><a href="Umidade.html" target="" type="external" class="cor_texto">Umidade</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>       
+        <h1 class="center">Umidade do ar no laboratório</h1>
+        <div class="area">
+        <div class="chart">
+            <div class="radio_chart" id="radioChartContent">
+            </div>
+            <div class="cap">
+            </div>
+            <div class="value" id="percentValue">
+            0%
+            </div>
+        </div>
+        </div>
+    </main>
+    
+    <footer id="rodapé">
+        <p id="p_footer">Copyright &copy; 2022 Diogo Fonseca. All rights reserved.</p>
+        <img id="logoDaee"src="imagens/Logo_DAEE_72_resol_branco.png" alt="Logo do Departamento acadêmico de engenharia elétrica">
+    </footer>
+    <script src="script/veloc.js"></script>
+    <script src="script/script.js"></script>
+</body>
+</html>
