@@ -47,4 +47,4 @@ function reset(){
   chart.style.animationPlayState = "initial";
   chart.style.webkitAnimationPlayState = "initial"; //if webkit
 }
-goTo(90);
+goTo(100);

@@ -1,7 +1,7 @@
 .area{
   display: flex;
   justify-content: center;
-  padding: 90px;
+  padding: 20px;
 }
 .chart{
   position: relative;
@@ -25,13 +25,13 @@
 
 .chart .radio_chart.animate{
   animation-name: circled;
-  animation-duration: 1s;
+  animation-duration: 1.6s;
   animation-timing-function: linear;
   -moz-animation-name: circled;
-  -moz-animation-duration: 1s;
+  -moz-animation-duration: 1.6s;
   -moz-animation-timing-function: linear;
   -webkit-animation-name: circled;
-  -webkit-animation-duration: 1s;
+  -webkit-animation-duration: 1.6s;
   -webkit-animation-timing-function: linear;
   background: #a200ff;
 }
@@ -43,7 +43,7 @@
   width: 100%;
   height: 100%;
   
-  transform: scale(0.8);
+  transform: scale(0.9);
   
   background-color: #333;
   margin: 0 auto;
@@ -78,7 +78,7 @@
       clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0%, 0 0, 50% 50%);
   }
   100% {
-    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0, 100% 0, 50% 50%);
+      clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0, 100% 0, 50% 50%);
   }
 }
 
