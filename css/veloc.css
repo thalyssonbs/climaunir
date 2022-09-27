@@ -25,13 +25,13 @@
 
 .chart .radio_chart.animate{
   animation-name: circled;
-  animation-duration: 1.6s;
+  animation-duration: 3s;
   animation-timing-function: linear;
   -moz-animation-name: circled;
-  -moz-animation-duration: 1.6s;
+  -moz-animation-duration: 3s;
   -moz-animation-timing-function: linear;
   -webkit-animation-name: circled;
-  -webkit-animation-duration: 1.6s;
+  -webkit-animation-duration: 0.2s;
   -webkit-animation-timing-function: linear;
   background: #a200ff;
 }
